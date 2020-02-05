@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jinsi"
+        android:textSize="20sp"
+        android:layout_marginStart="5dp"/>
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_erkak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Erkak"/>
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:id="@+id/rb_ayol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayol"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ilovani tilini tanlang"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"/>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chb_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"/>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chb_uzb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uzbekcha"/>
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chb_rus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Русский"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_tasdiqlash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tasdiqlash"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tv_natija_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natija"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Biror xil so'z kiriting"/>
+    <TextView
+        android:id="@+id/tv_natija_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Natija"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_kopiya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kopiya"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
